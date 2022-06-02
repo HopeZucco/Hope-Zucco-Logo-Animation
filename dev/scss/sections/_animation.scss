@@ -1,0 +1,39 @@
+#animation{
+    #whole{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .cont{
+            // display: none;
+        }
+
+        .logoMark{
+            // display: none;
+        }
+        
+        .airlines{
+            // display: none;
+        }
+
+        .airplaneNew{
+          position:absolute;
+          width: 7%;
+        }
+        
+        .theSVG{
+                position: absolute;
+                
+            }
+    }
+
+    
+
+    .logoA{}
+
+    .logoC{}
+    
+    .logoPlane{}
+
+}
