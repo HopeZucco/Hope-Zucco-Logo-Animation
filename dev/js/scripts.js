@@ -29,10 +29,18 @@ function airplaneIntro(){
     mainTL.to(".airplaneNew",{motionPath:{path:"#smelly",align:"#smelly",autoRotate:true,alignOrigin:[0.5,0.5]},duration:3,ease:"power2.out"});
 }
 
+// var tl = gsap.timeline({defaults: {duration: 1}}),
+
+// airplaneNew = document.getElementsByClassName(".airplaneNew");
+
+
 function planeToLogo(){
     // write that
     mainTL.to(".airplaneNew",{duration:.5,scale:2,alpha:0});
     mainTL.to(".logoA",{alpha:1,duration:.3},"-=.25");
+
+    // mainTL.to(".airplaneNew", {morphSVG:".logoA"}, "+=1")
+    
     mainTL.to(".logoC",{drawSVG:"100%",alpha:1,duration:1,ease:"power4.inOut"});
     // mainTL.to(".theLine",{y:"-=5",duration:1});
     // mainTL.from(".logoA",{scale:2},"-=.3");
