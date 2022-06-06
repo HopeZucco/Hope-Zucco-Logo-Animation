@@ -4,6 +4,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        // background-color:paleturquoise;
 
         .cont{
             // display: none;
@@ -19,7 +20,7 @@
 
         .airplaneNew{
           position:absolute;
-          width: 7%;
+          width: 6%;
         }
         
         .theSVG{
@@ -28,6 +29,9 @@
             }
     }
 
+    .theLine{
+        right:300px;
+    }
     
 
     .logoA{}

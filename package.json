@@ -8,6 +8,7 @@
   "repository": {},
   "private": true,
   "dependencies": {
-    "gsap": "file:gsap-bonus.tgz"
+    "gsap": "file:gsap-bonus.tgz",
+    "tween-function": "^2.0.1"
   }
 }
