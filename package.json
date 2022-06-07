@@ -8,6 +8,7 @@
   "repository": {},
   "private": true,
   "dependencies": {
+    "@cmgl/tween": "^1.0.6",
     "gsap": "file:gsap-bonus.tgz",
     "tween-function": "^2.0.1"
   }
